@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>The Golden Trio | Admissions</title>
+<meta charset="UTF-8" />
+<link rel="stylesheet" type="text/css" href="styles/style.css" />
+
+</head>
+<body>
+<div id="page">
+  <div id="header">
+  	<div><a href="#"><img src="images/favicon.gif" alt="" /></a></div>
+	<span style="color:white"><b>The GoldenTrio University</b> <br />
+      <b>(+880)1791967123</b><br /></span>
+	  <div class="login-container">
+    <form action ="welcome.php" method ="post">
+      <input type="text" placeholder="Username" name="name">
+      <input type="text" placeholder="Password" name="psw">
+      <button type="submit">Login</button>
+    </form>
+  </div>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li class="current"><a href="admissions.html">Admissions</a></li>
+      <li><a href="training-courses.html">Courses</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="school-calendar.html">Calendar</a></li>
+      <li><a href="contact-us.html">Contact us</a></li>
+    </ul>
+  </div>
+  <div id="content">
+    <div>
+      <h3>ADMISSION INFORMATION</h3>
+      <p>Welcome to The Golden Trio University, Bangladesh - also known by its acronym GTU.The University was established in 1900 with professional support
+		from some renowned national and international academics as a pioneer private university. GTU is committed to prepare its students as able
+		professionals -- - creative, committed, liberal, alive to their environment and capable to contribute to the country's advancement as well as
+		achieve their goals in a rapidly changing economic and civic environment.
+		TGTU is known among its students and graduates for providing a good mix of study and social life. 
+		A host of activities - including sport, clubs, societies, employment services, accommodation, student services, scholarships, teaching, 
+		learning, research - contribute to the total GTU experience. GTU graduates enjoy some of highest employment rates and starting salaries.</p>
+      <div class="section">
+        <div id="aside">
+          <h5><b>There are three academic semesters namely, Autumn, Spring and Summer.</b> </h5>
+		  <div class="first"> <a href="#"><img src="images/course.jpg" alt="" /></a></div>
+          <p><ul>
+						<li>The admission procedure for Autumn (the beginning of the academic year) starts within the first week of July and ends with the commencement of classes in the first week of September.</li><span id="dots">...</span><span id="more"> <li>The admission procedure for Spring starts within the first week of November and ends with the commencement of classes in the second week of January.</li> 
+						<li>The admission procedure for Summer takes place in the second week of March and ends with the commencement of classes in the second week of May.</li>
+					</ul></span></p>
+		  <button onclick="myFunction()" id="myBtn" class="w3-button w3-dark-grey">Read more</button>
+		  <script>
+function myFunction() {
+  var dots = document.getElementById("dots");
+  var moreText = document.getElementById("more");
+  var btnText = document.getElementById("myBtn");
+
+  if (dots.style.display === "none") {
+    dots.style.display = "inline";
+    btnText.innerHTML = "Read more"; 
+    moreText.style.display = "none";
+  } else {
+    dots.style.display = "none";
+    btnText.innerHTML = "Read less"; 
+    moreText.style.display = "inline";
+  }
+}</script>
+						
+          <h5 class="required-document-head"><b>For Master’s / Graduate Program:</b></h5>
+          <p><ul class="required-document-list">
+					<li>Original Transcript &amp; Certificate of S.S.C. or Equivalent with 2  photocopies.</li>
+					<li>Original Transcript &amp; Certificate of H.S.C. or Equivalent with 2  photocopies.</li>
+					<li>Original Transcript &amp; Certificate of Undergraduate/ Honor’s Program with 2 photocopies.</li>
+					<li>7 Copies of Pass Port size Photograph .</li>
+				</ul></p>
+          </div>
+        <div id="sidebar">
+          <h5><b>Admission Eligibility </b></h5>
+          <p><ul>
+						<li>Combined GPA of 7 in SSC and HSC.</li>
+						<li>Other 12 years equivalent degree (must have the equivalence certificate from Ministry of Education)</li>
+						<li>Engineering Students must have Math and Physics in their H.S.C. with at least B grade.</li>
+						<li>Students applying for Microbiology and Biochemistry must have Biology in their SSC or O-Level with at least B grade.</li>
+						<li>Environmental Science students who have taken Chemistry/Physics in S.S.C. or O'Level will get preference.</li>
+						</li>
+					</ul></p>
+          <h5><b>Full Tuition waiver to student with:</b></h5>
+          <p><ul>
+						<li>GPA 5.00 in both SSC and HSC (Excluding 4 th subject)</li>
+						<li>7 A’s in O- level (one sitting) and 3 A’s in A-level.</li>
+						<li>Top 5% scorers in Admission test will get 100% Scholarship</li>
+					</ul></p>
+          <h5><b>Financial Assistance:</b></h5>
+          <p><ul>
+						<li>Discount on Tuition fee, based on performance in GTU and Financial need.</li>
+						<li>50% financial discount for concurrently admitted siblings &amp; spouse on entry</li>
+						<li>Campus job &amp; other Financial Assistance&gt;
+					</li></ul></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <div>
+      <div id="connect"> <a href="#"><img src="images/icon-facebook.gif" alt="" /></a> <a href="#"><img src="images/icon-twitter.gif" alt="" /></a> <a href="#"><img src="images/icon-youtube.gif" alt="" /></a> </div>
+      <div class="section">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="admissions.html">Admissions</a></li>
+          <li><a href="training-courses.html">Courses</a></li>
+          <li><a href="career.html">Career</a></li>
+          <li class="last"><a href="contact-us.html">Contact us</a></li>
+        </ul>
+        <p>Copyright &copy; <a href="#">GoldenTrio</a> - All Rights Reserved | Template By <a target="_blank" href="#">TheGoldenTrio.com</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
